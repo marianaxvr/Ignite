@@ -1,6 +1,5 @@
-import React from 'react';
-import { App } from './App';
+export function App() {
+    throw new Error('ih, deu ruim!');
 
-export function Wrapper() {
-    return<h1>Hello World</h1>
+    return
 }
